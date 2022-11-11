@@ -1,0 +1,16 @@
+Package: marginalMeans
+Type: Package
+Title: Network-based Agent-based model with closed form mean attack rates
+Version: 1.0
+Date: 2020-05-05
+Author: Daniel K. Sewell
+Maintainer: Dan Sewell <daniel-sewell@uiowa.edu>
+Description: By utilizing recursive relationships, our method can quickly compute the expected epidemiological outcomes even for large populations based on any arbitrary contact network. 
+License: GPL (>= 2)
+Depends: R (>= 3.6.3), Matrix, igraph
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: graphics, methods, stats, utils, grDevices, Matrix, igraph
